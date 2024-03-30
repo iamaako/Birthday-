@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-size: 15pt;
+    background:rgb(255, 255, 255);
+    
+}
+
+#Display{
+  width: 100vw;
+  height: 100vh;
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  transition: all .3s ease-in;
+  
+}
+#Display img{
+  width: 30%;
+  filter: drop-shadow(2px 2px 3px #42445A);
+  
+}
+#Display h4{
+  color: #C3C3C4;
+  font-family: 'Poppins', sans-serif;
+  
+}
+#screenS{
+  background: #ffffff;
+  color: #000000;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  transition: all 4s linear;
+  padding: 0 20px;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.ml2 {
+  font-weight: 900;
+  font-size: 1.5em;
+  text-align: center;
+  font-family: 'Passion One', cursive;
+  -webkit-text-stroke: 1px #000000;
+  color: #FFFFFF;
+  
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 0.5em;
+  opacity: 0;
+  
+}
+#cake{
+  width: 90%;
+  opacity: 0;
+  
+}
+.typed-cursor {
+  display: none;
+}
+.element{
+  text-align: left;
+  padding: 10px;
+  font-family: 'Arya', sans-serif;
+  line-height: 20px;
+  font-size: 12pt;
+  
+}
+#cake{
+  position: relative;
+  height: 306px;
+  overflow: hidden;
+  
+  
+  
+}
+#cake img{
+  width: 306px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#F{
+  background: #ffffff;
+  z-index: 400;
+  mix-blend-mode: lighten;
+  
+  
+}
+#S{
+  width: 40%;
+  top: 0;
+  height: auto;
+}
+h2{
+  font-family: 'Courgette', cursive;
+  font-weight: 400;
+  text-align: center;
+  font-size: 2em;
+  opacity: 0;
+}
+sub{
+  float: right;
+  font-family: 'Poppins', sans-serif;
+  color: #ff0000;
+  align-self: flex-end;
+  justify-self: flex-end;
+  opacity: 0;
+}
+
+#my-canvas{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  
+}
+p{
+  position: fixed;
+  font-family: Poppins ;
+  color: #0400ff;
+  top :88vh;
+  font-size: 10pt;
+}
+p:hover{
+  box-shadow: 0 0 10px rgb(255, 247, 0),
+  0 0 20px rgb(255, 247, 0),
+  0 0 40px rgb(255, 247, 0),
+  0 0 80px rgb(255, 247, 0),
+  0 0 160px rgb(255, 247, 0),
+  0 0 320px rgb(255, 247, 0);
+  color: red;
+  background: yellow;
+}
