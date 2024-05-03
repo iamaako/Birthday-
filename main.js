@@ -98,9 +98,7 @@ heart.addEventListener("click" , (e)=>{
      });
  }
 var options = {
-  strings: [`"No one understands me as much as you understand me.......I see my brother💕 in you
-   Happy birthday Raghu😎..... God Bless YOu always......God be Complete YOur All Wishes❤️
-   Have a Great day Brother🫂💖"`],
+  strings: [`"Happy Birthday, Madhumita DiDi❣️ May your special day be filled with joy🤓, laughter😁, and wonderful memories❤️. Wishing you all the happiness and success in the world. Have a fantastic year ahead! God bless you always 🫶💖"`],
   typeSpeed: 45
 };
 
